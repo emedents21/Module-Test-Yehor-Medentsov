@@ -85,5 +85,10 @@ namespace Module_Test_Yehor_Medentsov
         {
 
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

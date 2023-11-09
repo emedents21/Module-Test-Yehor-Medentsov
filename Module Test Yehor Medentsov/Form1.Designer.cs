@@ -58,7 +58,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 173);
+            this.textBox1.Location = new System.Drawing.Point(12, 208);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 3;
@@ -67,18 +67,19 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 143);
+            this.label4.Location = new System.Drawing.Point(9, 179);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 13);
+            this.label4.Size = new System.Drawing.Size(163, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Кiлькicть тварин";
+            this.label4.Text = "Кiлькicть тварин (кожноi з них)";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(137, 27);
+            this.listBox1.Location = new System.Drawing.Point(178, 27);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(635, 355);
+            this.listBox1.Size = new System.Drawing.Size(594, 355);
             this.listBox1.TabIndex = 7;
             // 
             // button1
